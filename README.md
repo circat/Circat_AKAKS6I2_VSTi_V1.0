@@ -33,4 +33,4 @@ You can find the latest VST3 version in the releases or use the direct link belo
 - **MIDI LEARN:** Right-click on any knob or fader to map your hardware controller.
 
 ---
-*Created by CIRCAT.MEDIA in collaboration with Antigravity AI.*
+*Created by CIRCAT.MEDIA
