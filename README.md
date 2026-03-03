@@ -1,8 +1,8 @@
 # AKAI S612 Sampler VST3
 
-A faithful hardware emulation of the legendary **Akai S612 Digital Sampler** (1985). This VST3 plugin captures the gritty 12-bit character, unique workflow, and characterful resampling of the original rack unit.
+![AKAI S612 VST3](S612_Panel.PNG)
 
-![AKAI S612 VST3](backpanel_clean2.png)
+A faithful hardware emulation of the legendary **Akai S612 Digital Sampler** (1985). This VST3 plugin captures the gritty 12-bit character, unique workflow, and characterful resampling of the original rack unit.
 
 ## ✨ Features
 
