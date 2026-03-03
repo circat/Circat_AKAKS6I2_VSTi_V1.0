@@ -12,10 +12,15 @@ PluginEditor::PluginEditor(PluginProcessor &p)
   setSize(1000, 240); // 19" Rack Proportions
   setLookAndFeel(&m_lookAndFeel);
 
-  // Load realistic background image
-  juce::File bgFile("f:\\S612VSTi\\backpanel_clean2.png");
-  if (bgFile.existsAsFile())
-    m_backgroundImage = juce::ImageFileFormat::loadFrom(bgFile);
+  // Load realistic background image from embedded BinaryData
+  m_backgroundImage = juce::ImageFileFormat::loadFrom(
+      S612BG::panel_bg_png, (size_t)S612BG::panel_bg_pngSize);
+  if (!m_backgroundImage.isValid()) {
+    // Fallback if binary data is missing or corrupted
+    juce::File bgFile("f:\\S612VSTi\\backpanel_clean2.png");
+    if (bgFile.existsAsFile())
+      m_backgroundImage = juce::ImageFileFormat::loadFrom(bgFile);
+  }
 
   auto &apvts = m_processor.getAPVTS();
 
