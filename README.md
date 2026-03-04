@@ -1,36 +1,34 @@
-# AKAI S612 Sampler VST3
+# CIRCAT AKAKS6I2 V1 - Official Plugin Distribution
 
-![AKAI S612 VST3](S612_Panel.PNG)
+![CIRCAT AKAKS6I2 V1](Circat_AKAKS6I2_Screenshot.PNG)
 
-A faithful hardware emulation of the legendary **Akai S612 Digital Sampler** (1985). This VST3 plugin captures the gritty 12-bit character, unique workflow, and characterful resampling of the original rack unit.
+A faithful 12-bit hardware emulation of the legendary **Akai S612 Digital Sampler** (1985). This VST3 plugin captures the gritty character, unique workflow, and characterful resampling of the original rack unit.
 
 ## ✨ Features
 
-- **Authentic 12-Bit Sound:** Every sample is quantized to 12-bit resolution during loading/recording to emulate the original DAC/ADC.
-- **Hardware-Style Sample Rates:** Supports 32kHz, 16kHz, and 8kHz operation with characterful linear resampling.
-- **Classic Controls:** Manual Splice, Alternating Loop (Hin & Her), and the iconic Start/End faders.
-- **MIDI Learn:** Map any MIDI CC to LFO, Filter, Decay, and Start/End points via right-click.
-- **Premium UI:** Custom brushed metal skin with original branding.
+- **CIRCAT V1 Engine:** Authentic 12-bit depth and character floor.
+- **Variable Sample Rates:** Characterful 32kHz, 16kHz, and 8kHz operation modes.
+- **Hardware-Style Loop Controls:** Manual Splice, Alternating Loop (Hin & Her), and iconic faders.
+- **MIDI Learn:** Ready for hardware mapping.
+- **Safety Hard-Guard:** Built-in warm-up protection to prevent initialization glitches and audio spikes.
 
-## 📥 Download
+## 📦 What's Included
 
-You can find the latest VST3 version in the releases or use the direct link below:
-
-*   **[Download S612 Sampler VST3 (Windows x64)](build/S612Plugin_artefacts/Release/VST3/S612%20Sampler.vst3/Contents/x86_64-win/S612%20Sampler.vst3)**
+- **`CIRCAT AKAKS6I2 V1.vst3`**: The core plugin bundle (Windows x64).
+- **`MANUAL.md`**: Official User Manual with detailed control descriptions.
+- **`README.md`**: This distribution overview.
+- **`Circat_AKAKS6I2_Screenshot.PNG`**: High-resolution interface preview.
 
 ## 🚀 Installation
 
-1. Copy the `S612 Sampler.vst3` folder/file to your VST3 plug-in directory:
-   - **Windows:** `C:\Program Files\Common Files\VST3\`
-2. Restart your DAW and rescan your plug-ins.
+1.  Download the **`CIRCAT_AKAKS6I2_V1_VST3_X64.zip`** from the [Releases](https://github.com/circat/S612-Sampler-VST3/releases) page.
+2.  Extract the ZIP content.
+3.  Copy the **`CIRCAT AKAKS6I2 V1.vst3`** folder/bundle into your VST3 folder:
+    - **Windows:** `C:\Program Files\Common Files\VST3\`
+4.  Restart your DAW and rescan plug-ins.
 
-## 🛠 Usage
-
-- **NEW:** Clears the buffer and enters standby for recording.
-- **OVERDUB:** Allows layering on top of existing samples.
-- **RATE:** Toggles between the three hardware sample rates (immediately resamples existing audio!).
-- **MANUAL SPLICE:** Toggles the manual loop point adjustment mode.
-- **MIDI LEARN:** Right-click on any knob or fader to map your hardware controller.
+## 🛠 Usage & Manual
+Please refer to the [User Manual (MANUAL.md)](MANUAL.md) for a full breakdown of the front panel, recording modes, and modulation options.
 
 ---
-*Created by CIRCAT.MEDIA
+*Created by [CIRCAT.MEDIA](https://circat.media). Digital Vintage Engineering.*
